@@ -15,3 +15,18 @@ find Simple Interest.
 8. To find out whether the given String is Palindrome or not.
 9. To find Armstrong Number between two given number.
 
+// PROBLEM 8 -->
+class Palindrome{
+   public static void main(String[] args){
+        String str = "LEVEL";
+        String check = "";
+          for(int i=str.length()-1; i>=0; i--){
+              check += str.charAt(i);
+        }
+        if(str.equals(check)){
+          System.out.println("PALINDROME");
+          }
+        else 
+          System.out.println(" NOT A PALINDROME");
+  }
+}
